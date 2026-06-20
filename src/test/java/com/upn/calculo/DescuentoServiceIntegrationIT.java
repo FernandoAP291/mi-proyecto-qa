@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class DescuentoServiceIntegrationIT {
 
     private final DescuentoService servicio = new DescuentoService();
-
+    
     @Test
     public void testIntegracionConServidorExterno() {
         System.out.println("[QA INFO] Iniciando prueba de integración de conectividad...");
